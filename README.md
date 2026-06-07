@@ -24,6 +24,7 @@ The framework is strictly decoupled into 4 modular computational blocks:
 * `main.py` — The primary orchestration module that initializes configurations, manages pipeline dataflows, and executes the benchmark suite via the `run_analysis` controller.
 * `core_processing.py` — Encapsulates mathematical routines for signal differentiation, vector squaring, and adaptive extreme values localization.
 * `hidden_params.py` — Contains statistical information theory tools, including multidimensional histograms for AMI calculation and Kennel's criteria for FNN evaluation.
+* `recurrence.py` — Realizes fast vectorized computations of pairwise Euclidean distance matrices and applies Heaviside thresholding to generate binary recurrence matrices.
 * `plot_ecg.py` — Handles spatial rendering engines for time-series diagnostics, 3D chaotic strange attractors, and monochrome recurrence maps.
 
 ---
