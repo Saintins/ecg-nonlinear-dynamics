@@ -34,6 +34,6 @@ The framework is strictly decoupled into 4 modular computational blocks:
 Ensure you have Python 3.8+ installed. Clone the repository and install the dependencies:
 
 ```bash
-git clone [https://github.com/your-username/ecg-nonlinear-dynamics.git](https://github.com/your-username/ecg-nonlinear-dynamics.git)
+git clone [https://github.com/Saintins/ecg-nonlinear-dynamics.git](https://github.com/Saintins/ecg-nonlinear-dynamics.git)
 cd ecg-nonlinear-dynamics
 pip install numpy scipy matplotlib wfdb scikit-learn
